@@ -1,6 +1,7 @@
 import './App.scss';
 import { Navbar, Home, News, Cryptocurrencies, Exchanges, CryptoDetails, Footer  } from './components';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import 'antd/dist/antd.css';
 
 
 const App = () => {

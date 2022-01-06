@@ -6,5 +6,9 @@
         width: 100%;
         background-color: #f0f0f0;
         overflow-y: scroll;
+
+        a {
+            color: unset !important;
+        }
     }
 }
