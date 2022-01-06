@@ -11,6 +11,7 @@ const App = () => {
     <div className="app">
         <Navbar />
         <div className="routes">
+          <div className='main_content'>
           <Switch>
             <Route exact path={'/'}>
               <Home />
@@ -28,7 +29,11 @@ const App = () => {
               <News />
             </Route>
           </Switch>
-        <Footer/>
+          </div>
+          <footer className='footer_content'>
+
+          <Footer/>
+          </footer>
         </div>
     </div>
       </BrowserRouter>
