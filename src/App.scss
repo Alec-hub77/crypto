@@ -1,14 +1,14 @@
 .app {
-    display: flex;
-    height: 100vh;
+  display: flex;
+  height: 100vh;
 
-    .routes {
-        width: 100%;
-        background-color: #f0f0f0;
-        overflow-y: scroll;
+  .routes {
+    width: 100%;
+    background-color: #f0f0f0;
+    overflow-y: scroll;
 
-        a {
-            color: unset !important;
-        }
+    a {
+      color: unset !important;
     }
+  }
 }
