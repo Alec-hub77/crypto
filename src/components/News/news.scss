@@ -5,6 +5,7 @@
 
 
 .crypto_news {
+  
   .news_card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -38,7 +39,7 @@
       box-shadow: 0px 0px 8px 1px rgba(34, 60, 80, 0.2);
 
       .news_description {
-        font-weight: 300;
+        font-weight: 400;
       }
 
       &:hover {

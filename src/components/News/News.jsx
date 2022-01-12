@@ -20,7 +20,7 @@ const News = ({ simplified }) => {
 
   const { Option } = Select;
 
-  if (isFetching, !data) {
+  if(isFetching && !data) {
     return 'Loading...';
   }
 

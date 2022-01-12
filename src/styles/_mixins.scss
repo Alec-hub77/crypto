@@ -1,0 +1,10 @@
+@mixin hovered-list {
+  border-bottom: 1px solid lightgrey;
+  color: var(--font-color);
+  display: flex;
+  justify-content: space-between;
+
+  &:hover {
+    background-color: #fff;
+  }
+}
