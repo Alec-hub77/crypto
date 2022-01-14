@@ -39,23 +39,23 @@ const Navbar = () => {
           <div className="navbar-link">
             <NavLink exact to="/">
             <HomeOutlined />
-              <span>Home</span>
+              <span className="link-name">Home</span>
             </NavLink>
             <NavLink to="/cryptocurrencies">
               <FundOutlined />
-              <span>Cryptocurrencies</span>
+              <span className="link-name">Cryptocurrencies</span>
             </NavLink>
           </div>
           <div className="navbar-link">
             <NavLink to="/exchanges">
               <MoneyCollectOutlined />
-              Exchanges
+              <span className="link-name">Exchanges</span>
             </NavLink>
           </div>
           <div className="navbar-link">
             <NavLink to="/news">
               <BulbOutlined />
-              News
+              <span className="link-name">News</span>
             </NavLink>
           </div>
         </div>

@@ -33,7 +33,7 @@
     }
 
     h3 {
-        color: #0071bd;
+      color: #0071bd;
     }
   }
 
@@ -69,16 +69,53 @@
   &.hidden {
     width: 50px;
     overflow: hidden;
-    
 
     .navbar_logo {
-        img {
-            visibility: hidden;
-        }
+      img {
+        visibility: hidden;
+      }
     }
 
     .navbar-link a:hover {
       background-color: unset !important;
+    }
+  }
+}
+@media only screen and (max-width: 667px) and (min-width: 375px) {
+  .navbar {
+    .navbar_logo {
+      display: flex;
+      flex-direction: column;
+    }
+    .navbar_links {
+      .navbar-link a {
+        padding: 3px;
+        font-size: 12px;
+
+        svg {
+          width: 15px;
+          height: 15px;
+          margin-right: 5px;
+        }
+        &.active {
+          background-color: #0071bd;
+          border-radius: 5px;
+        }
+      }
+    }
+
+    &.hidden {
+      width: 45px;
+      .navbar_logo {
+        display: none;
+      }
+      .navbar_links {
+        .navbar-link a {
+          .link-name {
+            display: none;
+          }
+        }
+      }
     }
   }
 }

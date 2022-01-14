@@ -119,3 +119,15 @@
     }
   }
 }
+
+@media only screen and (max-width: 667px) and (min-width: 375px) {
+  .coin_details_container {
+    .stats_container {
+      flex-direction: column;
+    }
+
+    .coin_desc {
+      flex-direction: column;
+    }
+  }
+}

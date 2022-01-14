@@ -1,0 +1,31 @@
+.line-chart {
+  margin: 50px 0;
+
+  .chart_header {
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+      color: var(--main-font-color);
+    }
+
+    h4 {
+      font-weight: bold;
+    }
+
+    .price_container {
+      display: flex;
+
+      h4 {
+        margin-right: 10px;
+      }
+
+      .current_price {
+        color: var(--main-font-color);
+        span {
+          color: #000;
+        }
+      }
+    }
+  }
+}
